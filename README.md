@@ -17,20 +17,20 @@ Install according to the link: https://kubernetes.io/docs/tasks/tools/install-ku
 
 ## 3. Deployment minio in minikube:
 - From a terminal start cluster:
-```
-`minikube start`
-```
+  ```
+  `minikube start`
+  ```
 - Create a namespace to contain minio named minio:
-```
-`kubectl create ns postgres`
-```
+   ```
+   `kubectl create ns postgres`
+   ```
 - Apply files .yaml to deploy postgres:
-```
-`kubectl apply -f PersistentVolume.yaml -n minio`
-`kubectl apply -f PersistentVolumeClaim.yaml -n minio`
-`kubectl apply -f StatefulSet.yaml -n minio`
-`kubectl apply -f service.yaml -n minio`
-```
+  ```
+  `kubectl apply -f PersistentVolume.yaml -n minio`
+  `kubectl apply -f PersistentVolumeClaim.yaml -n minio`
+  `kubectl apply -f StatefulSet.yaml -n minio`
+  `kubectl apply -f service.yaml -n minio`
+  ```
 - access_key and secret_key default to access minio console (port 9090):
   ```
   `access_key: minioadmin`
