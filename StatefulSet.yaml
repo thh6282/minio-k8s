@@ -27,6 +27,9 @@ spec:
           ports:
             - containerPort: 9090
             - containerPort: 9000 
+          volumeMounts:
+            - name: miniodata
+              mountPath: /data  
       volumes:
       - name: miniodata
         persistentVolumeClaim:
