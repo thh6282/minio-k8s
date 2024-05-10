@@ -36,5 +36,5 @@ Install according to the link: https://kubernetes.io/docs/tasks/tools/install-ku
   access_key: minioadmin
   secret_key: minioadmin
   ```
-
-  ## ...
+# Reference: 
+  - For more information: https://min.io/
