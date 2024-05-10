@@ -37,5 +37,5 @@ Install according to the link: https://kubernetes.io/docs/tasks/tools/install-ku
   secret_key: minioadmin
   ```
   Now, you can access to minio console in your browser.
-# Reference: 
+# Document: 
   - For more information: https://min.io/
