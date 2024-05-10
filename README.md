@@ -24,7 +24,7 @@ Install according to the link: https://kubernetes.io/docs/tasks/tools/install-ku
    ```
    kubectl create ns postgres
    ```
-- Apply files .yaml to deploy postgres:
+- Apply files .yaml to deploy minio:
   ```
   kubectl apply -f PersistentVolume.yaml -n minio
   kubectl apply -f PersistentVolumeClaim.yaml -n minio
@@ -36,5 +36,6 @@ Install according to the link: https://kubernetes.io/docs/tasks/tools/install-ku
   access_key: minioadmin
   secret_key: minioadmin
   ```
+  Now, you can access to minio console in your browser.
 # Reference: 
   - For more information: https://min.io/
