@@ -24,7 +24,7 @@ Install according to the link: https://kubernetes.io/docs/tasks/tools/install-ku
    ```
    kubectl create ns postgres
    ```
-- Apply files .yaml to deploy minio:
+- Apply files .yaml to deploy minio: with StatefulSet, PV, PVC
   ```
   kubectl apply -f PersistentVolume.yaml -n minio
   kubectl apply -f PersistentVolumeClaim.yaml -n minio
